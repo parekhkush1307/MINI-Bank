@@ -1,0 +1,10 @@
+# Git ignore file for MiniBank project
+out/
+*.class
+*.jar
+manifest.txt
+data/accounts.dat
+data/demo_accounts.dat
+data/report.txt
+logs/*.log
+.DS_Store
