@@ -8,17 +8,6 @@ import model.annotation.Positive;
 
 import java.io.Serializable;
 
-/**
- * Lab 02 – Base Account class (made abstract in Lab 05).
- * Lab 03 – Overrides toString, equals, hashCode; implements Cloneable.
- * Lab 05 – Abstract class with abstract interestRate() and canWithdraw().
- * Lab 06 – Implements Transactable and InterestBearing interfaces.
- * Lab 07 – @Id on accountNumber, @Positive on balance.
- * Lab 08 – deposit/withdraw throw checked exceptions.
- * Lab 09 – deposit/withdraw are synchronized for thread-safety.
- * Lab 11 – Implements Serializable for object persistence.
- * Lab 12 – Implements Comparable<Account> by account number.
- */
 public abstract class Account implements Transactable, InterestBearing, Serializable, Comparable<Account> {
 
     private static final long serialVersionUID = 1L;

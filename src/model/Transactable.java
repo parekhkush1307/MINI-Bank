@@ -3,10 +3,6 @@ package model;
 import exception.InvalidAmountException;
 import exception.InsufficientFundsException;
 
-/**
- * Lab 06 – Interface defining deposit/withdraw operations on an account.
- * Account implements this interface.
- */
 public interface Transactable {
 
     /**

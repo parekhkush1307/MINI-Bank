@@ -1,9 +1,6 @@
 package exception;
 
-/**
- * Lab 08 (Supplementary) – Thrown when a single withdrawal would exceed
- * the account's configured daily withdrawal limit.
- */
+
 public class DailyLimitExceededException extends BankException {
 
     private final long limit;

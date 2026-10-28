@@ -2,12 +2,6 @@ package model;
 
 import java.io.Serializable;
 
-/**
- * Lab 02 – Represents a bank customer with identity and contact details.
- * Lab 03 – Contains a public static nested Address class.
- *           Implements Cloneable to support customer copying.
- * Lab 11 – Implements Serializable.
- */
 public class Customer implements Cloneable, Serializable {
 
     private static final long serialVersionUID = 5L;

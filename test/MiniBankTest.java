@@ -15,16 +15,6 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * Lab 14 – JUnit 5 tests for MiniBank.
- *
- * Tests:
- *  1. deposit increases the balance
- *  2. withdrawal over the limit throws InsufficientFundsException
- *  3. many concurrent deposits keep the balance correct (thread-safety)
- *  4. save / load state preserves account data
- *  5. Validator rejects bad mobile numbers
- */
 public class MiniBankTest {
 
     private SavingsAccount savings;
